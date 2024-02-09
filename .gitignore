@@ -1,0 +1,35 @@
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore static files directory (if using Django's collectstatic)
+/static/
+
+# Ignore media files directory
+/media/
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore local development settings file
+*.local_settings.py
+
+# Ignore IDE/Editor specific files
+.vscode/
+.idea/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore environment variables file
+.env
+
+# Ignore logs
+*.log
+
+# Ignore secret key file
+secret_key.txt
+
+# Ignore the entire celery folder
+celery/
