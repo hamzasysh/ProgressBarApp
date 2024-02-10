@@ -147,8 +147,11 @@ REST_FRAMEWORK = {
 # settings.py
 
 # Celery Configuration
-CELERY_BROKER_URL = 'redis://127.0.0.1:6379/0'
-CELERY_RESULT_BACKEND = 'redis://127.0.0.1:6379/0'
+CELERY_BROKER_URL = 'redis://172.18.0.1:6379/0'
+
+#'redis://127.0.0.1:6379/0'
+CELERY_RESULT_BACKEND = 'redis://172.18.0.1:6379/0'
+#'redis://127.0.0.1:6379/0'
 #CELERY_RESULT_BACKEND = 'django-db'
 
 STATIC_ROOT = BASE_DIR / 'static'
