@@ -20,7 +20,7 @@ constantly==23.10.4
 cryptography==42.0.2
 daphne==4.0.0
 distlib==0.3.7
-Django==4.1.13
+Django==4.2.14
 django-celery-results==2.5.1
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.3.1
