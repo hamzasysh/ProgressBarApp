@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.11.5-slim
+FROM python:3.13.0b3-slim
 
 # Install build essentials and other necessary tools
 RUN apt-get update && apt-get install -y --no-install-recommends \
